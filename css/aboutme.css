@@ -103,10 +103,14 @@ h6, .h6
 }
 @media only screen and (max-width: 969px)
 {
+   
 }
 
-@media screen and (max-width: 454px) {
-   #aboutMeMenu {
+@media only screen and (max-width: 454px)
+{
+    #aboutMeMenu {
      display: none;
    }
 }
+
+
